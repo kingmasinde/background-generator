@@ -1,0 +1,65 @@
+/*General list styling-----------*/
+
+body {
+    margin-top: 70px; 
+    font-family: Nunito;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: 1px dotted #384047;
+    width: 50%;
+    margin: auto;
+    font-weight: 700;
+}
+
+/*
+li:first-child {
+    background: #52bab3;
+    color: white;
+}
+*/ 
+
+li:last-child {
+    border: none;
+}
+
+ul :only-child {
+    color: #52bab3;
+    font-size: 1.5em;
+}
+
+/*
+li:empty {
+    background-color: tomato;
+}
+*/
+
+li:nth-child(-n+1) {
+    background: #52bab3;
+    color: white;
+}
+
+li:nth-of-type(9) {
+    background: #52bab3;
+}
+
+li:nth-last-of-type(4) {
+    background: #52bab3;
+}
+
+:root {
+    background: lightblue;
+}  
+
+#one:target,
+#two:target {
+    background: black;
+}
+
+li:not(#two) {
+    font-style: italic
+}
