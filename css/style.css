@@ -57,9 +57,9 @@ li:nth-last-of-type(4) {
 
 #one:target,
 #two:target {
-    background: black;
+    background: purple;
 }
 
 li:not(#two) {
-    font-style: italic
+    font-style: none;
 }
