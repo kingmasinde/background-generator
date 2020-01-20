@@ -61,5 +61,5 @@ li:nth-last-of-type(4) {
 }
 
 li:not(#two) {
-    font-style: italic
+    font-style: none;
 }
